@@ -12,6 +12,13 @@
   .project-wrapper {
     margin-bottom: 15rem;
 
+    #project-order {
+      display: flex;
+      flex-direction: column;      
+    }
+
+    
+
     @include respond(phone) {
       margin-bottom: 0rem;
     }

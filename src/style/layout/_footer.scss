@@ -35,10 +35,7 @@
     border-top: 2px solid rgba(255, 255, 255, 0.1);
   }
 }
-
-#ztm {
-  vertical-align: left;
-}
+  
 .social-links {
   display: flex;
   flex-direction: row;
@@ -69,4 +66,31 @@
   &:hover {
     transform: translateY(-2px);
   }
+}
+
+#certificates {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;  
+  a {
+    background-color: red;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    border: 1px solid black;
+    margin: 0 10px;
+    img {
+      max-width: 100%;
+      height: auto;
+
+    }
+    
+  }
+
+  @media (max-width:1000px) {
+    a{width:100%;}
+  }
+
+  
+
 }

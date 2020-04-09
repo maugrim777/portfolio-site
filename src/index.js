@@ -19,3 +19,18 @@ $('a[href^="#"]').on('click', function(event) {
 
 initSr();
 initTilt();
+
+let projectOrder = () => {
+  let projectChangeLogs = Array.from(document.getElementsByClassName('project-wrapper__change_log')) 
+
+  let projects=projectChangeLogs.map(log => log.parentElement.parentElement.parentElement)
+
+  let children=projectChangeLogs.map(log => log.parentElement.childElementCount)
+
+  for (let i=0; i<projects.length; i++) {
+    projects[i].style.order = 0 - children[i]
+  }
+
+
+}
+projectOrder()

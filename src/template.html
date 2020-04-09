@@ -103,7 +103,7 @@
           <h2 class="section-title dark-blue-text">
             Projects
           </h2>
-
+          <div id='project-order'>
           <!-- Calculator project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -139,7 +139,7 @@
               <div class="project-wrapper__text">
                 
                 <br>
-                <h4 class="project-wrapper__text-title">Change Log</h4>
+                <h4 class="project-wrapper__change_log">Change Log</h4>
                 <p class="mb-4"><b>v1.0:</b> <em>Original app, as developed in the tutorial. Only mouse click on buttons.</em></p>
                 <p class="mb-4"><b>v2.0:</b> <em>Added keyboard functionality for using the calculator.</em></p>
               </div>
@@ -229,11 +229,13 @@
             <div class="col-lg-12 col-sm-12">
               <div class="project-wrapper__text">
                 <br>
-                <h4 class="project-wrapper__text-title">Change Log</h4>
+                <h4 class="project-wrapper__change_log">Change Log</h4>
                 <p class="mb-4"><b>v1.0:</b> <em>Original app, as developed in the tutorial. Only one face detected</em></p>
                 <p class="mb-4"><b>v2.0:</b> <em>Added capabilities to detect all faces in image. No. of faces detected is not logged and saved.</em></p>
                 <p class="mb-4"><b>v2.1:</b> <em>Added tracking and storing of total number of faces detected, for each user.</em></p>
                 <p class="mb-4"><b>v3.0:</b> <em>Added automatic email send to user upon registration, using Send Grid API</em></p>
+                <p class="mb-4"><b>v4.0:</b> <em>Added reset password flow: send email with reset link and screen to choose new password.</em></p>
+                
               </div>
             </div>
             <div class="col-lg-12 col-sm-12">
@@ -279,9 +281,10 @@
             <div class="col-lg-12 col-sm-12">
               <div class="project-wrapper__text">
                 <br>
-                <h4 class="project-wrapper__text-title">Change Log</h4>
+                <h4 class="project-wrapper__change_log">Change Log</h4>
                 <p class="mb-4"><b>v1.0:</b> <em>Original app, as developed in the tutorial.</em></p>
                 <p class="mb-4"><b>v1.1:</b> <em>Bug fix: automatically remove leading zero's in case of keyboard input</em></p>
+                
               </div>
             </div>
             <div class="col-lg-12 col-sm-12">
@@ -290,6 +293,7 @@
             </div>
           </div> 
           <!-- /END Project -->
+          </div>
         </div>
       </div>
     </section>
@@ -341,23 +345,21 @@
         </div>
 
         <hr />
-        <div class="certificates" style=" display: flex; justify-content: space-around; max-height: 30vh; align-items: center;  ">
-          <div>
-            <a href="https://www.freecodecamp.org/certification/fccb92b375b-d530-459e-9567-e10a2bd87aba/responsive-web-design"  target="_blank">
-              <img id='fcc' src="./assets/certificates/FCCResponsiveWebDesign.png" alt="freeCodeCamp1" style="max-height: 30vh;" >
-          </a>
-          </div>
-          <div >
-            <a href="https://www.udemy.com/certificate/UC-05cbeb61-0b6d-4500-bf9a-97cb8210fc7f/"  target="_blank">
-              <img id='ztm' src="./assets/certificates/ZTM_CompleteWebDeveloper_2020.jpg" alt="ZTM_web_certificate" style="max-height: 30vh;" >
-            </a>
-          </div>
 
-          <!-- <a href="https://www.udemy.com/certificate/UC-05cbeb61-0b6d-4500-bf9a-97cb8210fc7f/"  target="_blank">
-            <img id='ztm' src="./assets/certificates/ZTM_CompleteWebDeveloper_2020.jpg" alt="ZTM_web_certificate" width="100%" style="margin:10px" ></a>
+        <div id='certificates'>
           <a href="https://www.freecodecamp.org/certification/fccb92b375b-d530-459e-9567-e10a2bd87aba/responsive-web-design"  target="_blank">
-            <img id='fcc' src="./assets/certificates/FCCResponsiveWebDesign.png" alt="freeCodeCamp1  " width="100%" style="margin:10px">
-          </a> -->
+            <img src="./assets/certificates/FCCResponsiveWebDesign.png">
+          </a>
+
+          <a href="https://www.udemy.com/certificate/UC-05cbeb61-0b6d-4500-bf9a-97cb8210fc7f/" target="_blank">
+            <img src="./assets/certificates/ZTM_CompleteWebDeveloper_2020.jpg">
+          </a>
+
+          <a href="https://www.freecodecamp.org/certification/fccb92b375b-d530-459e-9567-e10a2bd87aba/javascript-algorithms-and-data-structures"  target="_blank">
+            <img src="./assets/certificates/freeCodeCapmp - JS Algorithms and Data Structures.jpg">
+          </a>
+        </div>
+
 
         </div>
         <hr />
