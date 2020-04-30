@@ -22,13 +22,15 @@ initTilt();
 
 let projectOrder = () => {
   let projectChangeLogs = Array.from(document.getElementsByClassName('project-wrapper__change_log')) 
-
+  
   let projects=projectChangeLogs.map(log => log.parentElement.parentElement.parentElement)
-
   let children=projectChangeLogs.map(log => log.parentElement.childElementCount)
+  console.log(children)
+  console.log(projects)
 
   for (let i=0; i<projects.length; i++) {
     projects[i].style.order = 0 - children[i]
+    console.log(projects[i].style.order, projects[i])
   }
 
 
