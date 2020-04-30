@@ -83,10 +83,16 @@
     img {
       max-width: 100%;
       height: auto;
+      transition: all .5s ease-in-out;
+    }
 
+    img:hover {
+      transform: scale(2);
     }
     
   }
+
+
 
   @media (max-width:1000px) {
     a{width:100%;}
